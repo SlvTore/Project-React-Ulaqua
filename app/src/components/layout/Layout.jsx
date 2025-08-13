@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Navbar from '../partials/Navbar';
-import Footer from '../partials/Footer';
+import Navbar from '../partials/Navbar.jsx';  // Add .jsx extension
+import Footer from '../partials/Footer.jsx';  // Add .jsx extension
 
 const Layout = () => {
   return (
